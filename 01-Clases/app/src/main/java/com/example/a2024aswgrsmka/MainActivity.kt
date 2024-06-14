@@ -24,7 +24,12 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        } */
+        }*/
+        val botonIrListView = findViewById<Button>(R.id.btn_ir_list_view)
+        botonIrListView
+            .setOnClickListener{
+                irActividad(BListView::class.java)
+            }
     }
 
     fun irActividad(
