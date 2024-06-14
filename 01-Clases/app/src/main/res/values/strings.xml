@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">2024ASwGrSMKA</string>
     <string name="mensaje">Screen default</string>
+    <string-array name="dias_semana">
+    <item>Lunes</item>
+    <item>Martes</item>
+    <item>Miercoles</item>
+    </string-array>
 </resources>
